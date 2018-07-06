@@ -1,0 +1,45 @@
+Command: dir
+Directory of  root
+No Sub directories found
+Command: up
+Can not go up anymore!!
+Command: mkdir   sub001
+Command: cd      sub001
+Command: cd      sub002
+Invalid Folder!!... sub002
+Command: dir
+Directory of  root\sub001
+No Sub directories found
+Command: up
+Command: dir
+Directory of  root
+sub001
+Command: up
+Can not go up anymore!!
+Command: mkdir   sub02
+Command: mkdir   sub03
+Command: mkdir   sub004
+Command: mkdir   sub005
+Command: mkdir   sub006
+Command: mkdir   sub007
+Command: mkdir   sub008
+Command: mkdir   sub009
+Command: mkdir   sub10
+Command: mkdir   sub11
+Command: mkdir   sub102
+Command: mkdir   sub13
+Command: mkdir   sub14
+Command: mkdir   sub15
+Command: mkdir   sub16
+Command: mkdir   sub17
+Command: mkdir   sub18
+Command: mkdir   sub19
+Command: mkdir   sub20
+Command: mkdir   sub201
+Command: mkdir   sub201
+Folder sub201 already exists
+Command: dir
+Directory of  root
+sub001  sub004  sub005  sub006  sub007  sub008  sub009  sub02   sub03   sub10
+sub102  sub11   sub13   sub14   sub15   sub16   sub17   sub18   sub19   sub20
+sub201

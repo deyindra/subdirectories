@@ -1,0 +1,31 @@
+dir
+up
+mkdir sub001
+cd sub001
+cd sub002
+dir
+up
+dir
+up
+mkdir sub02
+mkdir sub03
+mkdir sub004
+mkdir sub005
+mkdir sub006
+mkdir sub007
+mkdir sub008
+mkdir sub009
+mkdir sub10
+mkdir sub11
+mkdir sub102
+mkdir sub13
+mkdir sub14
+mkdir sub15
+mkdir sub16
+mkdir sub17
+mkdir sub18
+mkdir sub19
+mkdir sub20
+mkdir sub201
+mkdir sub201
+dir
