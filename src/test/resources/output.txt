@@ -43,3 +43,9 @@ Directory of  root
 sub001  sub004  sub005  sub006  sub007  sub008  sub009  sub02   sub03   sub10
 sub102  sub11   sub13   sub14   sub15   sub16   sub17   sub18   sub19   sub20
 sub201
+Command: cd      sub16
+Command: mkdir   sub116
+Command: cd      sub116
+Command: dir
+Directory of  root\sub16\sub116
+No Sub directories found

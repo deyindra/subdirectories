@@ -29,3 +29,7 @@ mkdir sub20
 mkdir sub201
 mkdir sub201
 dir
+cd sub16
+mkdir sub116
+cd sub116
+dir

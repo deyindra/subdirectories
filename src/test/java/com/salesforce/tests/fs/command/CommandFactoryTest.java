@@ -37,7 +37,8 @@ public class CommandFactoryTest {
                 "mkdir sub02","mkdir sub03","mkdir sub004","mkdir sub005","mkdir sub006",
                 "mkdir sub007","mkdir sub008","mkdir sub009",
                 "mkdir sub10","mkdir sub11","mkdir sub102","mkdir sub13","mkdir sub14","mkdir sub15","mkdir sub16",
-                "mkdir sub17","mkdir sub18","mkdir sub19","mkdir sub20","mkdir sub201","mkdir sub201","dir"
+                "mkdir sub17","mkdir sub18","mkdir sub19","mkdir sub20","mkdir sub201","mkdir sub201","dir","cd sub16",
+                "mkdir sub116","cd sub116","dir"
                 );
     }
     private static List<String> outputs(){
@@ -81,6 +82,12 @@ public class CommandFactoryTest {
         list.add("sub001  sub004  sub005  sub006  sub007  sub008  sub009  sub02   sub03   sub10");
         list.add("sub102  sub11   sub13   sub14   sub15   sub16   sub17   sub18   sub19   sub20");
         list.add("sub201");
+        list.add(String.format("%-17s", String.format("%-9s","Command:")+CommandEnum.CD.name().toLowerCase())+"sub16");
+        list.add(String.format("%-17s", String.format("%-9s","Command:")+CommandEnum.MKDIR.name().toLowerCase())+"sub116");
+        list.add(String.format("%-17s", String.format("%-9s","Command:")+CommandEnum.CD.name().toLowerCase())+"sub116");
+        list.add(String.format("%-9s","Command:")+CommandEnum.DIR.name().toLowerCase());
+        list.add("Directory of  root\\sub16\\sub116");
+        list.add("No Sub directories found");
         return list;
     }
 

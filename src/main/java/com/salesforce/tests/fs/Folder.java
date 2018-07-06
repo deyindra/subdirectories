@@ -51,7 +51,7 @@ public class Folder implements Comparable<Folder>{
      */
     public boolean addFolder(String folderName){
         folderName = folderName.toLowerCase();
-        String folderPath = this.folderName + OSConstant.SEPARATOR + folderName;
+        String folderPath = this.folderPath + OSConstant.SEPARATOR + folderName;
         return this.childFolders.add(new Folder(folderName,folderPath, this));
     }
 
