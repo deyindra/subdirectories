@@ -35,7 +35,7 @@ Building and Execution
         tar -xvf ../subdirectories-bin.tar
 ##### 4. Execute the following command which will display all the output command
     java -jar subdirectories-1.0-SNAPSHOT.jar <<input file name>>
-##### 5. Please refer ![inputs.txt](src/test/resources/inputs.txt) for sample input file containing command
+##### 5. Please refer [inputs.txt](src/test/resources/inputs.txt) for sample input file containing command
 
 
 Current Limitation and Enhancement
